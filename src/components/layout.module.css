@@ -1,0 +1,136 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.overall {
+  background: linear-gradient(
+    to right,
+    rgb(25, 29, 79),
+    rgb(124, 29, 171),
+    rgb(62, 67, 130)
+  );
+}
+.topNav {
+  height: 8vh;
+  width: 100%;
+
+  display: flex;
+  color: white;
+}
+.appIcon {
+  text-align: center;
+  width: 10%;
+  padding: 10px 0px;
+  font-style: italic;
+}
+.appName {
+  width: 20%;
+  text-align: center;
+  padding: 10px 0px;
+  font-weight: 600;
+}
+.searchBar {
+  width: 70%;
+  text-align: center;
+  padding: 4px 0px;
+}
+.searchBar_input {
+  width: 50%;
+  height: 30px;
+  margin: 0px auto;
+  border: 0px;
+  padding-left: 5px;
+}
+.game_info {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+.sideNav {
+  width: 5%;
+  height: 92vh;
+
+  color: white;
+}
+.body {
+  background-color: white;
+  border-top-left-radius: 8px;
+  height: 92vh;
+  width: 95%;
+  overflow: auto;
+}
+
+.home {
+  text-align: center;
+  width: 100%;
+  height: 50px;
+}
+.home:hover {
+  background-color: rgb(28, 28, 46);
+  border-radius: 5px;
+}
+.games {
+  text-align: center;
+  width: 100%;
+  height: 50px;
+  margin-top: 10px;
+}
+.games:hover {
+  background-color: rgb(28, 28, 46);
+  border-radius: 5px;
+}
+.news {
+  text-align: center;
+  width: 100%;
+  height: 50px;
+  margin-top: 10px;
+}
+.news:hover {
+  background-color: rgb(28, 28, 46);
+  border-radius: 5px;
+}
+.home_icon {
+  font-size: 25px;
+  transform: translateY(50%);
+}
+.news_icon {
+  font-size: 25px;
+  transform: translateY(50%);
+}
+.game_icon {
+  font-size: 25px;
+  transform: translateY(50%);
+}
+.gear_icon {
+  font-size: 25px;
+  transform: translateY(50%);
+}
+.account_icon {
+  font-size: 25px;
+  transform: translateY(50%);
+}
+.settings {
+  text-align: center;
+  width: 100%;
+  height: 50px;
+  margin-top: 300px;
+}
+.settings:hover {
+  background-color: rgb(28, 28, 46);
+  border-radius: 5px;
+}
+.account {
+  text-align: center;
+  width: 100%;
+  height: 50px;
+  margin-top: 10px;
+}
+.account:hover {
+  background-color: rgb(28, 28, 46);
+  border-radius: 5px;
+}
